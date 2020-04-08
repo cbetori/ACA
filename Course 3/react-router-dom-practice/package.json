@@ -1,0 +1,31 @@
+{
+  "name": "contact-list-starter",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "*"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.8",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "*",
+    "react-router-dom": "*",
+    "redux": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
