@@ -1,0 +1,47 @@
+body{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+[data-stack] {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 50px;
+  padding-top: 200px;
+  height: auto;
+  background-color: aliceblue;
+  margin: 25px;
+  border-bottom: 5px black solid;
+}
+
+[data-block] {
+  height: 25px;
+  float: left;
+}
+
+[data-block="25"] {
+  width: 25px;
+  background-color: blue;
+}
+
+[data-block="50"] {
+  width: 50px;
+  background-color: green;
+}
+
+[data-block="75"] {
+  width: 75px;
+  background-color: red;
+}
+
+[data-block="100"] {
+  width: 100px;
+  background-color: yellow;
+}
+
+#announce-game-won {
+  font-size: 50px;
+  text-align: center;
+}
